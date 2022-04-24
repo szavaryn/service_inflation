@@ -30,5 +30,5 @@ And **perceived inflation** as arithmetic mean:
 (0.1 + 0.02 + 0.5) / 3 = 20.7%
 
 Some additional requirements regarding dataset in .sql:
-- We want to use only those items which produce more than high half of total brand GMV in region per all observation time;
+- We want to use only those items which produce more than half of total brand GMV in region per all observation time;
 - The key condition in this case related to calculating the percentage of the item in total GMV by any type of aggregation (brand, region, brand + region, etc.);
